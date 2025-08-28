@@ -319,7 +319,7 @@ document.getElementById("brac-btn").addEventListener("click", function () {
     historyContainer.appendChild(div);
   }
 });
-//Bangladesh Railway Helpline
+
 document.getElementById("railway-btn").addEventListener("click", function () {
   const callRateBalance = toSubtraction("coin");
   if (callRateBalance != true) {
@@ -358,7 +358,7 @@ historyContainer.appendChild(div);
 document.getElementById("clear-btn").addEventListener("click", function () {
   document.getElementById("history-container").style.display = "none";
 });
-//like count section
+
 document;
 const likeBtns = document.getElementsByClassName("like-btn");
 for (const likeBtn of likeBtns) {
@@ -368,7 +368,6 @@ for (const likeBtn of likeBtns) {
     document.getElementById("like-count").innerText = newLikeCount;
   });
 }
-//  copy count
 
 document;
 const copyBtns = document.getElementsByClassName("copy-btn");
